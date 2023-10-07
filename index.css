@@ -198,20 +198,20 @@
   }
   #header {
     position: fixed;
-    width: auto;
+    width: 375px;
     border: 1px solid #000;
     top: 0;
     height: 7rem;
   }
   #header img {
     width: 16rem;
-    position: fixed;
-    bottom: 41rem;
+    position: relative;
+    top: 1.3rem;
     left: 2rem;
   }
   #nav-bar {
     position: relative;
-    top: 4rem;
+    top: 2.5rem;
     right: 2rem;
     margin-left: 3rem;
     margin-bottom: 2rem;
