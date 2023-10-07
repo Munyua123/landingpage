@@ -135,7 +135,7 @@
     padding-bottom: 1rem;
   }
 }
-
+/* THIS HAS EEN STOPPED FOR THE MOMENT SINCE IT INTERUPTS THE MOBILE VIEW */
 /* This is the media class that controls the ressponsiveness of tablets a
 @media (max-width: 992px) {
     #header {
@@ -196,9 +196,10 @@
   * {
     background-color: #f2e9e4;
   }
+  /* Specify and change for samsung phone */
   #header {
     position: fixed;
-    width: 375px;
+    width: 350px;
     border: 1px solid #000;
     top: 0;
     height: 7rem;
