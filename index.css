@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  background-color: #e6e2d3;
+}
+
+/* This is the media class that controls the responsiveness of laptops and desktops */
+@media (min-width: 992px) {
+    #header {
+      height: 5rem;
+      border: 1px solid #000;
+      width: 300rem;
+      position: fixed;
+      top: 0;
+    }
+    #header-img {
+      width: 12rem;
+      height: 2rem;
+      margin-right: 0;
+      margin-top: 2rem;
+      position: fixed;
+      bottom: 31rem;
+    }
+    #nav-bar {
+      position: fixed;
+      left: 14rem;
+      bottom: 31.5rem;
+    }
+  }
+
+/* This is the media class that controls the ressponsiveness of tablets a */
+@media (max-width: 992px) {
+    #header {
+      height: 5rem;
+      border: 1px solid #000;
+      width: 300rem;
+      position: fixed;
+      top: 0;
+    }
+    #header-img {
+      width: 12rem;
+      height: 2rem;
+      margin-right: 0;
+      margin-top: 2rem;
+      position: fixed;
+      bottom: 20rem;
+    }
+    #nav-bar {
+      position: fixed;
+      left: 14rem;
+      bottom: 31.5rem;
+    }
+    .forms h1 {
+      text-align: center;
+      margin-top: 7rem;
+    }
+  
+    #form,
+    label {
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  
+    #user {
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+    }
+    #email {
+      margin-bottom: 0.5rem;
+      margin-left: 1.8rem;
+    }
+    #submit {
+      background-color: #fff1;
+      width: 6rem;
+      margin-left: 1rem;
+    }
+    #submit {
+      transition: background-color 300ms;
+    }
+    #submit:hover {
+      background-color: #5b9aa0;
+    }
+  }
+
+/* this is the media class that represents responsiveness of mobile phones  */
+@media (max-width: 576px) {
+  #header{
+      position: fixed;
+    }
+    #header-img{
+    width: 1rem;
+    height: 2rem;
+    margin-right: 0;
+    margin-top: 2rem;
+    position: fixed;
+    bottom: 200rem;
+    left: 2rem;
+  }
+  #nav-bar{
+    position: relative;
+    bottom: 3rem;
+    right: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+  } 
+}
+
+
+
+#nav-bar {
+  transition: color 500ms;
+}
+#nav-bar:hover {
+  color: orangered;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 1rem;
+  color: #000;
+}
+.nav-link {
+  transition: color 500ms;
+}
+.nav-link:hover {
+  color: #f7786b;
+}
+.title {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+#form,
+label {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#user {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+#email {
+  margin-bottom: 0.5rem;
+  margin-left: 1.8rem;
+}
+#submit {
+  background-color: #fff1;
+  width: 6rem;
+  margin-left: 1rem;
+}
+#submit {
+  transition: background-color 300ms;
+}
+#submit:hover {
+  background-color: #5b9aa0;
+}
+
+#pricing {
+  display: flex;
+}

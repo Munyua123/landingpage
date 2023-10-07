@@ -1,0 +1,197 @@
+** start of undefined **
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+  <header id="header">
+    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-img">
+    <nav id="nav-bar">
+    <a href="#featured" class="nav-link">Featured</a>
+    <a href="#howitworks" class="nav-link">How it works</a>
+    <a href="#pricing" class="nav-link">Pricing</a>
+    </nav>
+  </header>
+    </section>
+    <section>
+      <h1 class="title">
+        Handcrafted, home-made masterpieces
+      </h1>
+      <form id = "form" action = "https://www.freecodecamp.com/email-submit">
+        <div>
+          <label
+          for = "user">
+            Username:
+            </label>
+            <input
+            type = "text"
+            name = "UserName"
+            placeholder="Enter your username"
+            id = "user"
+            required>
+            </input>
+          </div>
+          <div>
+            <label for ="email">
+              Email:
+            </label>
+            <input
+            type = "email"
+            name = "email"
+            placeholder = "Enter your Email Address"
+            id = "email"
+            required>
+            </input>
+          </div>
+          <div>
+            <input id = "submit" type = "submit">
+              Submit
+            </input>
+          </div>
+      </form>
+    </section>
+    <section id ="featured">
+      <div>
+      <h2>Premium Materials</h2>
+      <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase</p>
+      </div>
+      <div>
+        <h2>Fast Shipping
+</h2>
+        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+        <div>
+          <h2>Quality Assurance</h2>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+      </section>
+  <section id = "howitworks">
+  <iframe id ="video" src=https://youtu.be/y8Yv4pnO7qc></iframe>
+  </section>
+<section id = "pricing">
+<h2 class= "heading" ></h2>
+<p><strong></strong></p>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  </ul>
+  <button></button>
+  </section>
+  <section>
+    <footer></footer>
+  </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  box-sizing: border-box;
+  background-color:#e6e2d3;
+}
+@media(max-width: 576px){
+  #header{
+    width: 390px;
+  }
+  #header-img{
+  width: 15rem;
+  height: 2rem;
+  margin-right: 0;
+  margin-top: 2rem;
+  position: relative;
+  bottom: 1rem;
+  left: 2rem;
+}
+#nav-bar{
+  position: relative;
+  bottom: 3rem;
+  right: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+}
+#header{
+  height: 5rem;
+  border: 1px solid #000;
+  width: 1200px;
+  position: fixed;
+  top: 0;
+}
+#header-img{
+  width: 20rem;
+  height: 2rem;
+  margin-right: 0;
+  margin-top: 2rem;
+  position: fixed;
+  bottom: 36rem;
+}
+#nav-bar{
+  position: fixed;
+  left: 53rem;
+  bottom: 36rem;
+}
+#nav-bar{
+  transition: color 500ms;
+}
+#nav-bar:hover{
+  color: orangered;
+}
+.nav-link{
+  text-decoration: none;
+  padding: 1rem;
+  color: #000; 
+}
+.nav-link{
+  transition: color 500ms;
+}
+.nav-link:hover{
+  color: #f7786b;
+}
+.title{
+  text-align: center;
+  margin-top: 10rem;
+}
+
+#form, label{
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#user{
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+#email{
+  margin-bottom: 0.5rem;
+  margin-left: 1.8rem;
+}
+#submit{
+background-color: #fff1;
+width: 6rem;
+margin-left: 1rem;
+
+}
+#submit{
+ transition: background-color 300ms;
+}
+#submit:hover{
+background-color: #5b9aa0;
+}
+
+#pricing{
+  display: flex;
+}
+
+** end of undefined **
+
